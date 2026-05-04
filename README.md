@@ -1,4 +1,4 @@
-# testimonials-grid-section
+# Testimonials Grid Section
 
 # Overview
 # The challenge
