@@ -7,7 +7,7 @@ Users should be able to:
 
 # Links
 - Solution URL: https://github.com/ndilisa/testimonials-grid-section
-- Live Site URL: [Add your live site URL here]
+- Live Site URL: https://ndilisa.github.io/testimonials-grid-section/
 
 # My process
 - Built with
