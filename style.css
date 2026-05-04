@@ -1,0 +1,100 @@
+@import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1110px;
+    margin: 50px auto;
+    padding: 2rem;
+}
+
+.testimonial {
+    border-radius: 0.5rem;
+    border-style: hidden;
+    padding: 2rem;
+}
+
+.testimonial-image {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 0;
+}
+
+.testimonial-name {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-verified {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 81%);
+    margin-bottom: 1rem;
+}
+
+.testimonial-avatar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.testimonial-content {
+    font-size: larger;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.testimonial-quote {
+    font-size: 0.9375rem;
+    line-height: 1.5;
+}
+
+.testimonial-1 {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+    grid-column: span 2;
+}
+
+.testimonial-2 {
+    background-color: hsl(217, 19%, 38%);
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonial-3 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 10%, 45%);
+}
+
+.testimonial-4 {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+    grid-column: span 2;
+}
+
+.testimonial-5 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 10%, 45%);
+    grid-row: span 2;
+}
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
