@@ -6,7 +6,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size.
 
 # Links
-- Solution URL: [Add your solution URL here]
+- Solution URL: https://github.com/ndilisa/testimonials-grid-section
 - Live Site URL: [Add your live site URL here]
 
 # My process
